@@ -352,23 +352,23 @@ footer {
 .container-foot{
     width: 1440px;
     height: 312px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding:0 auto;
-    
-}
-.foot{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 132px;
 }
 
-.foot-1,.foot-2{
-    margin-top: 100px;
+.foot-1{
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.foot{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
 }
 
 .image-box img{
@@ -406,7 +406,6 @@ footer {
 .icon-item:hover{
     background-color: #31D0AA;
 }
-
 
 .container-form {
     display: flex;
@@ -502,8 +501,11 @@ legend p{
     height: 80px;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items:end;
     justify-content: center;
+    gap: 16px;
+    margin-right: 50px;
+    
 }
 
 .footer-form input{
@@ -543,5 +545,4 @@ legend p{
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    margin-right: 24px;
 }
